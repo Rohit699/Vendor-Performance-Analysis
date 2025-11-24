@@ -55,19 +55,20 @@ Effective inventory and sales management are critical in the retail sector. This
 ```
 vendor-performance-analysis/
 │
-├── Dashboard/                  # Power BI dashboard file
-│   └── vendor_performance.pbix 
-├── Images/
-├── └── png Images
-├── Scripts/                    # Python scripts for ingestion and processing
-│   ├── ingestion_db.py
-│   ├── get_vendor_summary.py
+├── README.md
+├── Vendor Performance Report.pdf
+│
 ├── notebooks/                  # Jupyter notebooks
 │   ├── Exploratory_data_analysis.ipynb
 │   ├── Vendor_Performance_Analysis.ipynb
-│   ├── ingestion_data.ipynb
-├── README.md                  
-├── Vendor_Performance_Report.pdf
+│   ├── Vendor_Performance_Analysis.ipynb
+│
+├── Scripts/                    # Python scripts for ingestion and processing
+│   ├── ingestion_db.py
+│   └── get_vendor_summary.py
+│
+├── dashboard/                  # Power BI dashboard file
+│   └── vendor_performance_dashboard.pbix
 ```
 
 ---
